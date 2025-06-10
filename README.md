@@ -7,6 +7,7 @@ Generative Adversarial Networks (GANs) help machines to create new, realistic da
 
 Architecture of GANs
 ---------------------
+![OpenAI Logo](https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg)
 
 GANs consist of two main models that work together to create realistic synthetic data which are as follows:
 1. Generator Model
