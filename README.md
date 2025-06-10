@@ -49,6 +49,8 @@ The discriminator wants to correctly classify real data as real (maximize logD(x
 
 How does GAN works? Let’s take an example of generating images of Dogs. Step 1- Training of Discriminator
 
+![DISCRIMINATOR TRAINING](https://media.geeksforgeeks.org/wp-content/uploads/20200518193309/step1_gan.png)
+
   1. Firstly some random noise signal is sent to a generator which creates some useless images containing noise(See fig. 2)
 
   2. Two inputs are given to Discriminator. First is the sample output images generated from Generator and second being the real world dog image samples.
@@ -57,7 +59,7 @@ How does GAN works? Let’s take an example of generating images of Dogs. Step 1
   5. After calculating individual errors, it will calculate cumulative error(loss) which is backpropagated and the weights of the Discriminator are adjusted. This is how a Discriminator is trained.
     
     
-
+![GENERATOR TRAINING](https://media.geeksforgeeks.org/wp-content/uploads/20200518193436/step2_gan.png)
 
 Step 2 - Training of Generator:
 
