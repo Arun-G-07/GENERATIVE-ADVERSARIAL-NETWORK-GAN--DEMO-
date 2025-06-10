@@ -56,8 +56,8 @@ How does GAN works? Let’s take an example of generating images of Dogs. Step 1
 
 Step 2 - Training of Generator:
 
-As previously in step 1, the loss is back propagated to discriminator to adjust its weights. Now we also need to back propagate an error to the Generator so that it can adjust its weights as well and train itself to generate improved images.
-Now, the images generated from the Generator are used as input to the generator itself instead of random noise.
-The newly generated images from the generator will now be an input to the Discriminator which again calculates probabilities like 0.5, 0.1 and 0.2. (See fig. 2)
-Now, an error will be calculated by comparing probabilities of generated images with 1(One).
-After calculating individual errors, it will calculate cumulative error(loss) which is back propagated and the weights of Generator are adjusted. This is how Generator is trained.
+  1. As previously in step 1, the loss is back propagated to discriminator to adjust its weights. Now we also need to back propagate an error to the Generator so that it can adjust its weights as         well and train itself to generate improved images.
+  2. Now, the images generated from the Generator are used as input to the generator itself instead of random noise.
+  3. The newly generated images from the generator will now be an input to the Discriminator which again calculates probabilities like 0.5, 0.1 and 0.2. (See fig. 2)
+  4. Now, an error will be calculated by comparing probabilities of generated images with 1(One).
+  5. After calculating individual errors, it will calculate cumulative error(loss) which is back propagated and the weights of Generator are adjusted. This is how Generator is trained.
