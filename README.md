@@ -7,6 +7,9 @@ Generative Adversarial Networks (GANs) help machines to create new, realistic da
 
 ![GAN](https://media.geeksforgeeks.org/wp-content/uploads/20200518193100/gan_1.png)
 
+
+
+
 Architecture of GANs
 ---------------------
 
